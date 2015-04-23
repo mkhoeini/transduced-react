@@ -1,0 +1,7 @@
+= transduced-react
+
+A transduced approach to ReactJS
+
+A _reduction_ is the operation you take on the newly arived data and the previously available, to produce a new data.
+A _transduction_ is when you take a reduction and produce a new reduction. _Transduction_ describes the essence of transformation.
+Now, react is a reduction from virtual DOM to actual DOM. We can define all other transformations, like Hiccup templates to virtual DOM (Templating), or state to Hiccup templates (Components), as transducers.
